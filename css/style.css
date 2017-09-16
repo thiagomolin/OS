@@ -1,0 +1,48 @@
+body{
+    margin: auto;
+    width: 95% !important;
+    background: beige;
+}
+
+.BotaoAdicionar{
+    float: right;
+}
+
+footer h4{
+    text-align: center;
+}
+
+.TelaOS table {
+        width: 100%;
+    }
+
+thead, tbody, tr, td, th { display: block; }
+
+tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+thead th {
+    height: 30px;
+
+    /*text-align: left;*/
+}
+
+.TelaOS tbody {
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+thead {
+    /* fallback */
+}
+
+
+tbody td, thead th {
+    width: 15%;
+    float: left;
+}
